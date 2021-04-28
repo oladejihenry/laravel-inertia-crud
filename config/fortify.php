@@ -2,6 +2,8 @@
 
 use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
+use Laravel\Fortify\Http\Requests\LoginRequest;
+use App\Models\User;
 
 return [
 
